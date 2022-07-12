@@ -11,4 +11,14 @@ const connection = mysql.createConnection({
 
   password: " ",
   database: "employees_db",
-});
+},
+console.log('Connected to employees_db database.')
+);
+
+firstPrompt();
+
+function firstPrompt(){
+    inquirer.prompt({
+        
+    })
+}
