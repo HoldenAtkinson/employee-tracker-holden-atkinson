@@ -19,6 +19,11 @@ firstPrompt();
 
 function firstPrompt(){
     inquirer.prompt({
-        
+        type: "list",
+        name: "task",
+        message: "What would you like to do?",
+        choices: [
+          "View Employees", "View Employees by Department",
+        ]
     })
 }
